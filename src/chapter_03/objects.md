@@ -52,9 +52,9 @@ let text_buffer = TextBuffer::new(None);
 let text_view = TextView::new_with_buffer(&text_buffer);
 ```
 
-Getting text from a **GtkTextBuffer** is a little tricky, so here's an abstraction which you
-can use to specify to grab the entire range of the buffer and return it as a **String**. As it
-turns out, you may specify a specific range of text to obtain from this buffer.
+Getting text from a **GtkTextBuffer** is a little tricky, so here's an abstraction that you
+can use to grab the entire range of the buffer and return it as a **String**. As it
+turns out, you may specify a range of text to obtain from this buffer.
 
 ```rust
 /// Obtain the entire text buffer's contents as a string.
@@ -69,7 +69,7 @@ fn get_buffer(buffer: &TextBuffer) -> Option<String> {
 
 These are single-element boxes that feature a scrollable window within. It can be useful to combine
 them with text views to enable text views to scroll. This is precisely what we are about to do
-within this chapter.
+in this chapter.
 
 ```rust
 let scrolled_window = ScrolledWindow::new(None, None);
