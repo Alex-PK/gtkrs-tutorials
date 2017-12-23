@@ -1,7 +1,7 @@
 # Maintaining External State
 
 In this chapter, we are going to have some state that we will manipulate with the UI. We
-therefore need a means of storing and loading values from that state. The program that
+therefore need means of storing and loading values from that state. The program that
 we are going to create has a single component: a health value.
 
 As it turns out, we can take advantage of atomic primitives directly, such as

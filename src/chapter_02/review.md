@@ -7,7 +7,7 @@ running your program with `cargo run`, you should have a window that looks like 
 <img src="images/ch02_complete.png">
 
 At this point, you should have a decent understanding of how **GtkBox**, **GtkButton**, and
-**GtkLabel** works. It may be a good idea to revisit the previons
+**GtkLabel** works. It may be a good idea to revisit the previous
 [GTK Objects Covered](./chapter_02_objects.md) section to review the specific details regarding
 them.
 

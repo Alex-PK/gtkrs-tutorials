@@ -1,6 +1,6 @@
 # Creating the UI Structure
 
-Using the previous chapter's structure as a template, we can expand that to include the new UI
+Using the previous chapter's structure as a template, we can expand it to include the new UI
 elements that we are going to use within our program. It is important to note that you only
 need to store elements that you are going to later program after the UI is constructed.
 

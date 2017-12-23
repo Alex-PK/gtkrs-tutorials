@@ -25,14 +25,14 @@ let vertical_box = Box::new(Orientation::Vertical, padding_between_children);
 
 ### Packing Boxes
 
-You may notice that the `pack_*` methods take a lot of miscellanious parameters. The first
+You may notice that the `pack_*` methods take a lot of miscellaneous parameters. The first
 parameter should be a reference to the widget that you are adding to the container. The
-second and third parameters define the expand a fill parameters respectively. The final
+second and third parameters define the `expand` and `fill` parameters respectively. The final
 parameter then defines how many units of space should be between children in the box.
 
-> To further elaborate on the expand and fill parameters, expand defines whether the
+> To further elaborate on the `expand` and `fill` parameters, `expand` defines whether the
 > given widget should attempt to use all of the extra space that it can. Each widget that has
-> the expand parameter set will equally share that extra space. Meanwhile, fill defines whether
+> the `expand` parameter set will equally share that extra space. Meanwhile, `fill` defines whether
 > the extra spaced should actually have that widget fill to cover that extra space, or should
 > merely use that extra space as padding.
 
@@ -70,8 +70,8 @@ let image_button = Button::new_from_icon_name("icon-name", 32);
 
 ### Styling Buttons
 
-Widgets within GTK can be styled so that they stand out from other widgets in the UI. Buttons
-in particularl support two style classes: destructive-action, and suggested-action. If you have
+Widgets in GTK can be styled so that they stand out from other widgets in the UI. Buttons
+in particular support two style classes: destructive-action, and suggested-action. If you have
 a critical button that needs to stand out in the UI, you can set them like so:
 
 ```rust
